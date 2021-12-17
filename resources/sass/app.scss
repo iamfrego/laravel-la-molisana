@@ -1,0 +1,27 @@
+@use 'bootstrap';
+
+// variables
+
+$brand-color : #002d75;
+
+// Header
+#site-header{
+    nav{
+        a.nav-link{
+            color: $brand-color;
+            font-weight: 500;
+            &:hover{
+                color: white;
+                background: $brand-color
+            }   
+        }
+    }
+}
+
+// Main
+
+main{
+    background-image: url('../img/fondo-pag-speciali.jpg');
+    padding:2rem 0;
+}
+
